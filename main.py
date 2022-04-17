@@ -1,6 +1,9 @@
 def summ(a,b):
     return a+b
 
+def sub_nums(a,b):
+    return a-b
+
 
 def main():
     num1 = int(input("Введите 1ое число: "))
@@ -8,6 +11,8 @@ def main():
     oper = input("Укажите действие: ")
     if oper == '+':
         print(summ(num1, num2))
+    elif oper == '-'
+        print(sub_nums(num1, num2))
 
 
 
